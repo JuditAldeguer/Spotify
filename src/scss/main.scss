@@ -1,0 +1,111 @@
+/*@import "core/variables";
+@import "core/reset";
+@import "components/code";
+@import "components/links";
+@import "layout/page";
+@import "layout/header";
+@import "layout/footer";
+@import "pages/index"; 
+--> pendiente de editar, si se activa da error de margenes*/
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.cabecera {
+  background-color: black;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+.burger {
+  height: 20px;
+}
+.logo {
+  height: 20px;
+}
+.blue {
+  background-color: cornflowerblue;
+}
+.container {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.title1 {
+  color: white;
+  font-size: 40px;
+}
+.white {
+  background-color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+.botton {
+  background-color: yellowgreen;
+  border-radius: 20px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 1em;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.title2 {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+.img {
+  width: 25%;
+  height: 25%;
+}
+.article-title {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.article-par {
+  color: gray;
+}
+.text {
+  width: 50%;
+}
+
+.footer {
+  background-color: black;
+  height: 150px;
+  position: relative;
+  margin-top: 10px;
+  bottom: 0px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.flag {
+  width: 10%;
+  height: 10%;
+}
+.list {
+  list-style: none;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
