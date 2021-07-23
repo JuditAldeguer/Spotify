@@ -1,18 +1,14 @@
-/*@import "core/variables";
+@import "core/variables";
 @import "core/reset";
-@import "components/code";
-@import "components/links";
-@import "layout/page";
-@import "layout/header";
-@import "layout/footer";
-@import "pages/index"; 
---> pendiente de editar, si se activa da error de margenes*/
-
+@import "core/mixins";
+/* pendiente de editar,
+si se activa da error de margenes  */
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0px;
+  font-family: $font-main;
 }
 .cabecera {
   background-color: black;
@@ -37,10 +33,17 @@ body {
   margin-right: 15px;
   display: flex;
   flex-direction: column;
+
+  @include absolutePadding();
+}
+.small {
+  padding: 1em;
+  color: white;
 }
 .title1 {
   color: white;
   font-size: 40px;
+  font-weight: 900;
 }
 .white {
   background-color: white;
@@ -57,6 +60,7 @@ body {
   padding: 10px 20px;
   text-decoration: none;
   text-align: center;
+  @include smallPadding();
 }
 .article {
   display: flex;
@@ -67,7 +71,7 @@ body {
 }
 .title2 {
   color: black;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
 }
 .img {

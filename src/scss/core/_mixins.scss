@@ -1,0 +1,8 @@
+@mixin absolutePadding() {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+@mixin smallPadding() {
+  margin: 1em;
+}
