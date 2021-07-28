@@ -1,0 +1,33 @@
+.white {
+  background-color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.title2 {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+}
+.img {
+  width: 25%;
+  height: 25%;
+}
+.article-title {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.article-par {
+  color: gray;
+}
+.text {
+  width: 50%;
+}

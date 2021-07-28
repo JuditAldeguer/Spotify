@@ -1,0 +1,31 @@
+.blue {
+  background-color: cornflowerblue;
+}
+.container {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+
+  @include absolutePadding();
+}
+.small {
+  padding: 1em;
+  color: white;
+}
+.title1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+}
+.botton {
+  background-color: yellowgreen;
+  border-radius: 20px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 1em;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  @include smallPadding();
+}

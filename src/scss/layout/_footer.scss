@@ -1,8 +1,24 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  background-color: black;
+  height: 150px;
+  position: relative;
+  margin-top: 10px;
+  bottom: 0px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.flag {
+  width: 10%;
+  height: 10%;
+}
+.list {
+  list-style: none;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
